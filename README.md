@@ -7,6 +7,14 @@ A 'todo' app implemented in Kotlin utilising a Room ORM framework backend to sto
 
 -> Takes input from user in bottom sheet fragment and passes up to main activity (main page).
 
+Implemented through a binding - better than findViewById.
+
+activity_main.xml uses a linear layout - views below each other.
+
+Plus + icon added as a vector and linked with its id.
+
+Each new fragment has its own xml.
+
 
 # Back-end
 'Room with a view' ORM with capabilities to add, update and map completed todo items from database to app.
