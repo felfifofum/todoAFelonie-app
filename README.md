@@ -1,6 +1,13 @@
 # todoAFelonie-app
 A 'todo' app implemented in Kotlin utilising a Room ORM framework backend to store data persistently.
 
+-> Bottom sheet modal.
+
+-> Item and description content are fragments (bottom sheet) and pops up as the keyboard.
+
+-> Takes input from user in bottom sheet fragment and passes up to main activity (main page).
+
+
 # Back-end
 'Room with a view' ORM with capabilities to add, update and map completed todo items from database to app.
 
